@@ -67,7 +67,7 @@ h2 {
     box-sizing: border-box;
     text-align: left;
     line-height: 50px;
-    height: 550px;
+    height:600px;
     padding: 1em;
     line-height: 1.5;
 }
@@ -327,6 +327,14 @@ h2 {
     display: inline;
   }
 
+  .desktop-title {
+    display: none;
+  }
+
+  .space-between {
+    margin-right: 2em;
+  }
+
   @media (min-width: 768px) {
     .desktop-grid {
       display: grid;
@@ -401,5 +409,9 @@ h2 {
       text-align: center;
       line-height: 50px;
       height: 310px;
+    }
+
+    .desktop-title {
+      display: inline;
     }
   }
