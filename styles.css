@@ -1,0 +1,401 @@
+html {
+    font-family: 'Poppins', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(255, 255, 255);
+    color: rgb(30, 27, 69);
+}
+
+.header-logo {
+    max-width: 150px;
+}
+
+.burger-nav {
+    background: rgb(255, 255, 255);
+    font-size: 1.25em;
+  }
+  
+  .burger-nav a {
+    display: block;
+    color: rgb(30, 27, 69);
+    padding: 10px 20px;
+  }
+
+  .burger-nav > a {
+    padding: 2%, 3%;
+}
+
+.burger-nav > a:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(30, 27, 69);
+}
+
+  .nav-header-flex {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  nav,
+  #menu-checkbox {
+    display: none;
+}
+
+#menu-checkbox:checked ~ nav {
+  display: block;
+}
+
+.hamburger-menu {
+    max-width: 70px;
+}
+
+.header {
+    font-size: 40px;
+    font-weight: 800;
+    font-family: Poppins, Arial, sans-serif;
+    text-align: center;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-box {
+    box-sizing: border-box;
+    text-align: left;
+    line-height: 50px;
+    height: 550px;
+    padding: 1em;
+    line-height: 1.5;
+}
+
+.pink {
+    background-color: rgb(230, 170, 181);
+}
+
+.cream {
+    background-color: rgb(247, 236, 213);
+}
+
+.lilac {
+    background-color: rgb(212, 217, 250);
+}
+
+.card {
+    color: rgb(30, 27, 69);
+    /* box-sizing: border-box; */
+    margin: 2em 1em;
+}
+
+.footer {
+    background-color: rgb(247, 236, 213);
+    padding: 20px;
+}
+
+.footer-info {
+    margin-bottom: 10px;
+  }
+
+  .footer-info h4 {
+    margin: 0;
+    font-weight: bold;
+  }
+
+  .footer-info p {
+    margin: 0;
+  }
+
+  .nav-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 4em 0;
+  }
+
+  .width-30 {
+    width: 30%;
+      margin: 0 auto;
+  }
+
+  .container {
+    display: flex;
+    align-items: center;
+  }
+
+  .container img {
+    width: 200px;
+    height: auto;
+    margin-right: 10px;
+  }
+
+  .box {
+    display: flex;
+  }
+  
+  .one {
+    flex: 1 1 auto;
+  }
+  
+  .two {
+    flex: 1 1 auto;
+  }
+
+  .hero-image-button {
+    background-image: url(images/7samueltheskeleton.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  
+  .hero-pink-box {
+    background-color: rgb(230, 170, 181);
+    text-align: center;
+    line-height: 100px;
+  }
+
+  /* .width-400 {
+    width: 400px;
+    max-width: 100%;
+    height: 400px;
+  } */
+
+  .desktop-grid {
+    grid-template-columns: 1fr 1fr 1fr;
+    display: inline;
+  }
+
+  .yellow-bar {
+    background-color: rgb(245, 174, 72);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    display: none;
+  }
+
+  .search-bar {
+    padding: 28px;
+    display: none;
+  }
+
+  .search-bar input[type="text"] {
+    flex: 1;
+    border: none;
+    padding: 4px;
+    display: none;
+  }
+
+  .search-bar button {
+    background-color: rgb(212, 217, 250);
+    color: rgb(30, 27, 69);
+    border: none;
+    padding: 8px;
+    cursor: pointer;
+    display: none;
+  }
+
+  .white-text-box {
+    background-color: white;
+    padding: 4px;
+    width: 550px;
+    display: none;
+    align-items: center;
+    justify-content: space-between;
+    color: rgb(30, 27, 69);
+  }
+
+  .header-text-box {
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: white;
+    color: rgb(30, 27, 69);
+    display: none;
+  }
+
+  .science-thumbnail {
+    padding: 16px;
+    display: none;
+  }
+
+  .desktop-box {
+    display: none;
+  }
+
+  .card-image-button-explore {
+    background-image: url(images/teoh-science\ lab-unsplash.jpg);
+  }
+
+  .card-image-button-visit {
+    background-image: url(images/colorful-museum-unsplash.jpg);
+  }
+
+  .card-image-button-admission {
+    background-image: url(images/12jessetheskeleton.jpg);
+  }
+
+  .card-image-button-accessibility {
+    background-image: url(images/accessibility-unsplash.jpg);
+  }
+
+  .card-image-button-cafe {
+    background-image: url(images/cafe-unsplash.jpg);
+  }
+
+  .card-image-button-shop {
+    background-image: url(images/shop-unsplash.jpg);
+  }
+
+  .card-image-button-support {
+    background-image: url(images/support-unsplash.jpg);
+  }
+
+  .card-image-button-volunteer {
+    background-image: url(images/volunteer-unsplash.jpg);
+  }
+
+  .card-image-button-intern {
+    background-image: url(images/intern-unsplash.jpg);
+  }
+
+  .card-image-button-professor {
+    background-image: url(images/professor-unsplash.jpg);
+  }
+
+  .card-image-button-mammoth {
+    background-image: url(images/9mammoth.jpg);
+  }
+
+  .card-image-button-energy {
+    background-image: url(images/energetica-unsplash.jpg);
+  }
+
+  .card-image-button-moon {
+    background-image: url(images/cosmology-unsplash.jpg);
+  }
+
+  .card-image-button-evolution {
+    background-image: url(images/Evolution-unsplash.jpg);
+  }
+
+  .card-image-button-biology {
+    background-image: url(images/biology-unsplash.jpg);
+  }
+
+  .card-image-button-robot {
+    background-image: url(images/robotics-unsplash.jpg);
+  }
+
+  .card-image-button-eco {
+    background-image: url(images/ecology-unsplash.jpg);
+  }
+
+  .card-image-button-vr {
+    background-image: url(images/1VRgirl\ Large.jpeg);
+  }
+
+  .card-image-button-teacher {
+    background-image: url(images/teacher-unsplash.jpg);
+  }
+
+  .card-image-button-research {
+    background-image: url(images/research-unsplash.jpg);
+  }
+
+  .card-image-background {
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* width: 400px; */
+    max-width: 100%;
+    height: 300px;
+  } 
+
+  .description-header {
+    box-sizing: border-box;
+    text-align: center;
+    line-height: 50px;
+  }
+
+  p, h3 {
+    margin: 0;
+  }
+
+  .grid-container {
+    grid-template-columns: repeat(3, 1fr);
+    display: inline;
+  }
+
+  @media (min-width: 768px) {
+    .desktop-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .grid-container {
+      grid-template-columns: repeat(3, 1fr);
+      display: grid;
+    }
+
+    .yellow-bar {
+      background-color: rgb(245, 174, 72);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 1em;
+    }
+
+    .search-bar {
+      padding: 28px;
+      display: flex;
+    }
+
+    .search-bar input[type="text"] {
+      flex: 1;
+      border: none;
+      padding: 4px;
+      display: flex;
+    }
+
+    .search-bar button {
+      background-color: rgb(212, 217, 250);
+      color: rgb(30, 27, 69);
+      border: none;
+      padding: 8px;
+      cursor: pointer;
+      display: flex;
+    }
+
+    .white-text-box {
+      background-color: white;
+      padding: 4px;
+      width: 550px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      color: rgb(30, 27, 69);
+    }
+
+    .header-text-box {
+      padding: 20px;
+      box-sizing: border-box;
+      text-align: center;
+      background-color: white;
+      color: rgb(30, 27, 69);
+      display: flex;
+      min-height: 76px;
+    }
+
+    .science-thumbnail {
+      padding: 16px;
+      display: flex;
+    }
+
+    /* .desktop-box {
+      display: flex;
+    } */
+
+    .description-header {
+      box-sizing: border-box;
+      text-align: center;
+      line-height: 50px;
+      height: 310px;
+    }
+  }
