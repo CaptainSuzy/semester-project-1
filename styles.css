@@ -46,7 +46,7 @@ html {
     max-width: 70px;
 }
 
-.header {
+h1 {
     font-size: 40px;
     font-weight: 800;
     font-family: Poppins, Arial, sans-serif;
